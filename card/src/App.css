@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+#form_box{
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 50%;
+  height: 100%;
+  background-color: #282c34;
+}
+#main_box{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 450px;
+  height: 80%;
+  border-radius: 20px;
+  border: 2px solid palevioletred;
+  background-color: transparent;
+  
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+
+#first-name{
+  width: 80%;
+  margin-top: 15%;
+  height: 25px;
+  border: none;
+  border-bottom: 3px solid palevioletred;
+  
+  
+  
+}
+#triple_box{
+  position: absolute;
+  top: 55%;
+  left: 10%;
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  background-color: transparent;
+}
+#first-month{
+  width: 70px;
+  border: none;
+  border-bottom: 2px solid palevioletred;
+}
+#name_label{
+  position: absolute;
+  top: 6%;
+  font-size: medium;
+  font-weight: bolder;
+  color: white;
+}
+#number_label{
+  position: absolute;
+  font-size: medium;
+  font-weight: bolder;
+  color: white;
+  top: 25%;
+}
+#triple_text{
+  position: absolute;
+  top: 48%;
+  left: 10%;
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+  background-color: transparent;
+}
+#Expiry_date{
+  
+  font-size: smaller;
+  font-weight: bolder;
+  color: white;
+}
+#Expiry_year{
+  font-size: smaller;
+  font-weight: bolder;
+  color: white;
+}
+#Cvv{
+  font-size: smaller;
+  font-weight: bolder;
+  color: white;
+}
+
+#payment_amount{
+  position: absolute;
+  top: 65%;
+  left: 10%;
+}
+#submit_button{
+  position: absolute;
+  top: 80%;
+  left: 35%;
+}
+#btt{
+  width: 120px;
+  font-size: medium;
+  border-radius: 10px;
+}
+#Card-box{
+  position: absolute;
+  top: 0%;
+  left: 52%;
+  width: 45%;
+  height: 100%;
+  background-color: #404e69;
+}
+#card{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  width: 500px;
+  height: 250px;
+  border: 2px solid palevioletred;
+  border-radius: 20px;
+  background-color: transparent;
+}
+#c_num{
+  position: absolute;
+  top: 30%;
+  left:18%;
+}
+#c_num h1{
+  color: white;
+}
+#carn {
+  position: absolute;
+  top:65%;
+  left: 10%;
+}
+#exn{
+  position: absolute;
+  top: 65%;
+  left: 45%;
+}
+#cvv{
+  position: absolute;
+  top: 65%;
+  left: 75%;
+}
+#c_details{
+  display: flex;
+  
+  gap: 100px;
+}
+#c_nama{
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  
+}
+#ex_d{
+  position: absolute;
+  top: 80%;
+  left: 45%;
+}
+#cvc{
+  position: absolute;
+  top: 80%;
+  left: 75%;
+}
